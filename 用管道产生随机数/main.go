@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// 随机数可控 0,1
+// 随机数可控 0,1,2
 func main() {
 	for i := range random(100) {
 		fmt.Println(i)
